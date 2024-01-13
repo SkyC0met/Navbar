@@ -1,0 +1,54 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin-top: 60px; /* Adjusted margin for fixed-top navbar */
+}
+
+nav.navbar {
+  background-color: #a1bea0;
+}
+
+nav.navbar a.nav-link {
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+nav.navbar a.nav-link:hover {
+  color: #ffc107;
+}
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+footer {
+  color: #495057;
+}
+
+footer a {
+  color: #007bff;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.contact-info i {
+  color: #d9534f;
+}
+
+.faq-list,
+.payment-methods,
+.follow-us {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-list li,
+.payment-methods li,
+.follow-us li {
+  margin-bottom: 10px;
+}
+
+.follow-us i {
+  margin-right: 10px;
+}
